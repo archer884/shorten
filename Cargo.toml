@@ -1,0 +1,10 @@
+[package]
+name = "shorten"
+version = "0.1.0"
+authors = ["J/A <archer884@gmail.com>"]
+
+[dependencies]
+grabinput = "*"
+hyper = {version = "*", default-features = false}
+rand = "*"
+url = "*"
