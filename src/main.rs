@@ -21,7 +21,7 @@ fn main() {
 
     for result in &results {
         match *result {
-            Err(_) => println!("error"),
+            Err(ref e) => println!("error: {}", e),
             Ok(ref url) => println!("{}", url),
         }
     }
